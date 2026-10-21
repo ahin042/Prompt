@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face { /* 웹 폰트 설정 */
     font-family: 'A2z';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-7Bold.woff2') format('woff2');
@@ -19,12 +20,15 @@
     font-display: swap;
 }
 
+=======
+>>>>>>> 9b96c689f1818952c6091687054cce5bfa183835
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+<<<<<<< HEAD
 body {
     width: 100%;
     background-color: #ffffff;
@@ -61,4 +65,24 @@ h1 {
     margin-top: 10px;
     border: none;
     border-top: 1px solid #222222;
+=======
+#header {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 1px solid #eee;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#header-description {
+    padding: 30px;
+    background-color: #222222;
+    font-size: 20px;
+    color: #ffffff;
+    
+>>>>>>> 9b96c689f1818952c6091687054cce5bfa183835
 }
