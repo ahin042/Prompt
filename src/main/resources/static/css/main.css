@@ -1,0 +1,71 @@
+@font-face { /* 웹 폰트 설정 */
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-7Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face { /* 웹 폰트 설정 */
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-4Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face { /* 웹 폰트 설정 */
+    font-family: 'OngleipParkDahyeon';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 90px 0;
+}
+
+#header-section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.icon {
+    height: 90px;
+}
+
+h1 {
+    margin-top: 2px;
+    font-family: 'A2z';
+    font-size: 17px;
+    font-weight: 400;
+    color: #000000;
+}
+
+#header-description {
+    margin-top: 10px;
+    font-family: 'A2z';
+    font-size: 14px;
+    color: #222222;
+}
+
+#header-line {
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    border-top: 1px solid #222222;
+}
